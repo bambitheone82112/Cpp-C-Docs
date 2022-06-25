@@ -496,7 +496,7 @@ int main()
         system("python youtubeDownload.py");
     }
 
-    std::cout << "\nWhat is the video name ? Press d for default. Must be a mp4 audioless file. If you downloaded it from youtube, it is already in the good format." << endl;
+    std::cout << "\nWhat is the video name ? (use gwain saga for better quality) Press d for default. Must be a mp4 audioless file. If you downloaded it from youtube, it is already in the good format." << endl;
     cin >> videoName;
 
     if (videoName == "d") {
